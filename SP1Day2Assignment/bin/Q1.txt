@@ -1,0 +1,12 @@
+Q1/- Limitation of JDBC-based persistence logic over the ORM.
+
+--> 1. Jdbc can't store the Java objects into the table directly, because the SQL queries does not allows the Java objects as input,
+here we need to convert object data into the simple(atomic) value to store them in a database.
+2. Jdbc code is the database dependent code because it uses database s/w dependent queries. so the JDBC based
+persistence logic is not 100% portable across various database s/w.
+3. Jdbc code having boiler plate code problem (writing the same code except the SQL queries in multiple classes of our
+application again and again).
+4. Jdbc code throws lots of checked exceptions, programmer need to handle them at compile time itself.
+5. After the select operation, we get the ResultSet object. this ResutSet object we can not transfer from one layer to another
+layer and to get the data from the ResultSet object we need to know the structure of the ResultSet object also.
+6. There is no any caching and transaction management support is available in the JDBC.

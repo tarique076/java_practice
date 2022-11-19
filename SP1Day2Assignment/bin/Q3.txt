@@ -1,0 +1,4 @@
+ What is the Difference between the Java Bean class and the POJO class.
+
+ --> POJO can have other than private fields whereas Java beans can only have private fields.
+ --> POJO may or may not have a constructor whereas Java beans should have a no-argument constructor.

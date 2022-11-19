@@ -1,0 +1,9 @@
+Q2/- Differentiate between Hibernate and JPA.
+
+--> JPA is described in javax.persistence package whereas Hibernate is described in org.hibernate package.
+--> JPA describes the handling of relational data in Java applications whereas Hibernate is an 
+Object-Relational Mapping (ORM) tool that is used to save the Java objects in the relational database system.
+--> JPA is not an implementation. It is only a Java specification whereas Hibernate is an implementation of JPA. 
+Hence, the common standard which is given by JPA is followed by Hibernate.
+--> JPA is a standard API that permits to perform database operations whereas 
+Hibernate is used in mapping Java data types with SQL data types and database tables.
